@@ -8,9 +8,11 @@ pipeline {
                 shared_library( name: "Abhijit Dhamne", companyname: "Infivit Technologies" )
             }
         }
-        stage('Build Address') {
+        stage('Worning') {
             steps {
-                shared_library(address: "Nashik", city: "Kamathwade")
+                script {
+                     shared_library.warning 'Do it fast!!!!'
+                }
             }
         }
     }
