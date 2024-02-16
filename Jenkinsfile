@@ -3,7 +3,7 @@ pipeline {
     agent any
     
     stages {
-        stage('HelloWorld') {
+        stage('Build') {
             steps {
                 shared_library("Abhijit Dhamne", "Infivit Technologies")
             }
