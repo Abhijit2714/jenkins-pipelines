@@ -11,5 +11,7 @@ pipeline {
         stage('Build Address') {
             steps {
                 shared_library(city: "Nashik", address: "Kamathwade")
+            }
+        }
     }
 }
