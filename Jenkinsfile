@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                shared_library.call( name: "Abhijit Dhamne", comapanyname: "Infivit Technologies" )
+                shared_library.getname( name: "Abhijit Dhamne", comapanyname: "Infivit Technologies" )
             }
         }
     }
