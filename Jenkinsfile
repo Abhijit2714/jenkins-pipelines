@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage('HelloWorld') {
             steps {
-                helloWorld("Abhijit Dhamne", "Infivit Technologies")
+                shared_library("Abhijit Dhamne", "Infivit Technologies")
             }
         }
     }
