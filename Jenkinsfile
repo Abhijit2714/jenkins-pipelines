@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                shared_library("Abhijit Dhamne", "Infivit Technologies")
+                shared_library( name: "Abhijit Dhamne", company: "Infivit Technologies")
             }
         }
     }
