@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                getname( name: "Abhijit Dhamne", comapanyname: "Infivit Technologies" )
+                shared_library.Greet( name: "Abhijit Dhamne", comapanyname: "Infivit Technologies" )
             }
         }
     }
